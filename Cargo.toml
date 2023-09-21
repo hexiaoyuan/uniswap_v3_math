@@ -1,6 +1,6 @@
 [package]
 name = "uniswap_v3_math"
-version = "0.4.0"
+version = "0.4.1"
 edition = "2021"
 license = "MIT"
 description = "Uniswap V3 math in Rust"
@@ -12,5 +12,6 @@ exclude = ["target/*", ".github/*", ".gitignore", "Uniswap/*"]
 
 [dependencies]
 ethers = { git = "https://github.com/hexiaoyuan/ethers-rs", default-features = false, features = ["abigen"], branch = "v2.0-pt01" }
-ruint = "1.8.0"
-thiserror = "1.0.40"
+ruint = "1.10.1"
+eyre = "0.6.8"
+thiserror = "1.0.48"
